@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LGUI}
+  - {t: A, h: LCTRL}
   - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
+  - {t: D, h: LEFT GUI}
   - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RIGHT GUI}
   - {t: L, h: RALT}
-  - {t: ;, h: RGUI}
+  - {t: '&Cedilha_lower', h: RCTRL}
   - Z
   - X
   - C
@@ -30,166 +30,192 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - /
-  - {t: SPACE, h: NAV}
-  - TAB
-  - {t: RET, h: SYM}
-  - {t: BSPC, h: NUM}
-  NAV:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Gui+Sft+Z
-  - Gui+V
-  - Gui+C
-  - Gui+X
-  - Gui+Z
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
-  - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - CAPS
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - INS
-  - HOME
-  - PG DN
-  - PG UP
-  - END
-  - {type: held}
-  - ''
-  - {t: ▽, type: trans}
-  - BSPC
-  NUM:
-  - '['
-  - '7'
-  - '8'
-  - '9'
-  - ']'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ;
-  - '4'
-  - '5'
-  - '6'
-  - '='
-  - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - \
-  - ''
-  - ''
-  - ','
-  - .
-  - ''
-  - SPACE
-  - '0'
-  - RET
-  - {t: BSPC, type: held}
+  - '~'
+  - {t: SPACE, h: mouse}
+  - {t: ENTER, h: NUM}
+  - {t: DEL, h: SYM}
+  - '&double_backspace'
   SYM:
-  - '{'
-  - '&'
-  - '*'
-  - (
-  - '}'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ':'
+  - ''''
+  - '!'
+  - '&E_agudo_lower'
+  - '#'
+  - '%'
+  - _
+  - '&U_agudo_lower'
+  - '&I_agudo_lower'
+  - '&O_agudo_lower'
+  - LOCKING NUM
+  - '&A_Agudo_lowercase'
   - $
   - '%'
   - ^
   - +
-  - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
-  - '~'
-  - '!'
-  - '@'
-  - '#'
   - '|'
+  - (
+  - )
+  - ':'
+  - '&'
+  - '&A_crase_lower'
+  - '@'
+  - \
+  - '|'
+  - ''
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - '?'
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  NUM:
+  - ESCAPE
+  - CAPS
+  - UP ARROW
+  - F2
+  - F11
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - /
+  - TAB
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - '='
+  - '0'
+  - {t: '4', h: RIGHT SHIFT}
+  - {t: '5', h: RIGHT GUI}
+  - {t: '6', h: RIGHT ALT}
+  - {t: '*', h: RCTRL}
+  - {t: game, h: toggle}
+  - HOME
+  - END
+  - PAGE DOWN
+  - PAGE UP
+  - +
+  - '1'
+  - '2'
+  - '3'
+  - ','
+  - SPACE
+  - {type: held}
+  - {t: ▽, type: trans}
+  - BSPC
+  mouse:
+  - ''
+  - ''
+  - '&mmv MOVE_UP'
+  - ''
+  - '&mkp MB3'
+  - VOLUME UP
+  - '&mkp LCLK'
+  - '&msc SCRL_UP'
+  - '&mkp MB2'
+  - BRI UP
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MB4'
+  - VOLUME DOWN
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - BRI DEC
+  - ''
+  - F4
+  - F5
+  - F6
+  - '&mkp MB5'
+  - MUTE
+  - F10
+  - F11
+  - F12
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  ADJ:
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '2'}
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - ''
   - {t: ▽, type: trans}
-  - )
+  - {type: held}
   - {type: held}
   - ''
-  ADJ:
-  - '&studio_unlock'
-  - ''
-  - ''
-  - ''
-  - ''
-  - MUTE
-  - VOL DN
-  - VOL UP
-  - PP
-  - ''
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
-  - ''
-  - OUT TOG
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - '&bootloader'
-  - '&sys_reset'
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - {type: held}
-  - ''
+  game:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - '0'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - '~'
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: ENTER, h: NUM}
+  - {t: DELETE, h: SYM}
+  - '&double_backspace'
 combos:
-- p: [0, 1]
-  k: ESC
-  l: [BASE]
-- p: [13, 16]
+- p: [16, 13]
   k: '&caps_word'
-  l: [BASE]
-- p: [7, 8]
-  k: BSPC
   l: [BASE]
 - p: [8, 9]
   k: DEL
-  l: [BASE]
-- p: [11, 12]
-  k: TAB
   l: [BASE]
 - p: [17, 18]
   k: RET
@@ -218,3 +244,21 @@ combos:
 - p: [11, 21]
   k: '`'
   l: [BASE]
+- p: [10, 30]
+  k: '&A_agudo_upper'
+  l: [SYM]
+- p: [20, 30]
+  k: '&A_crase_upper'
+  l: [SYM]
+- p: [6, 30]
+  k: '&U_agudo_upper'
+  l: [SYM]
+- p: [7, 30]
+  k: '&I_agudo_upper'
+  l: [SYM]
+- p: [8, 30]
+  k: '&O_agudo_upper'
+  l: [SYM]
+- p: [6, 8, 7, 9]
+  k: {t: BASE, h: toggle}
+  l: [game]
