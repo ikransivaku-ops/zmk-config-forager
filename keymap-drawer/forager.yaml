@@ -137,8 +137,8 @@ layers:
   - F12
   - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - ''
   ADJ:
   - {t: BT, h: '0'}
