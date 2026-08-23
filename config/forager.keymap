@@ -539,7 +539,7 @@
   &none  &none           &mmv MOVE_UP    &none            &mkp MB3    &kp C_VOLUME_UP    &mkp LCLK       &msc SCRL_UP    &mkp MB2         &kp C_BRI_UP
   &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4    &kp C_VOLUME_DOWN  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp C_BRI_DEC
   &none  &kp F4          &kp F5          &kp F6           &mkp MB5    &kp C_MUTE         &kp F10         &kp F11         &kp F12          &none
-                                         &none            &trans      &trans             &none
+                                         &trans           &none       &none              &none
             >;
         };
 
