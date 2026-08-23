@@ -20,7 +20,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
@@ -296,6 +295,12 @@
             key-positions = <8 30>;
             layers = <1>;
         };
+
+        Exit_game {
+            bindings = <&to 0>;
+            key-positions = <6 8 7 9>;
+            layers = <5>;
+        };
     };
 
     macros {
@@ -306,7 +311,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_1>,
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_NUMBER_1>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -320,7 +325,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_1 &kp N9 &kp N9>,
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_N9 &kp KP_N9>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -334,7 +339,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_1 &kp N9 &kp NUMBER_3>,
+                <&kp KP_N0 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_3>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -348,7 +353,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_1 &kp N9 &kp NUMBER_2>,
+                <&kp KP_N0 &kp KP_N1 &kp KP_NUMBER_9 &kp KP_N2>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -362,7 +367,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_2 &kp NUMBER_4>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N4>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -376,7 +381,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_3>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N3>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -390,7 +395,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp N0 &kp NUMBER_1>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_NUMBER_0 &kp KP_N1>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -404,7 +409,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_4 &kp NUMBER_3>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N3>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -418,7 +423,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_1 &kp NUMBER_1>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N1>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -432,7 +437,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_3 &kp N7>,
+                <&kp KP_NUMBER_0 &kp KP_N2 &kp KP_N3 &kp KP_N7>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -446,7 +451,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp N0 &kp N5>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N5>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -460,7 +465,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_4 &kp N9>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N9>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -474,7 +479,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_1 &kp N8>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N8>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -488,7 +493,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp NUMBER_2 &kp NUMBER_2 &kp N5>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -502,20 +507,20 @@
         base_layer {
             display-name = "BASE";
             bindings = <
-  &kp Q         &kp W        &kp E            &kp R         &kp T           &kp Y      &kp U              &kp I             &kp O        &kp P
-  &hml LCTRL A  &hml LALT S  &hml LEFT_GUI D  &hml LSHFT F  &kp G           &kp H      &hmr RSHIFT J      &hmr RIGHT_GUI K  &hmr RALT L  &cedilha RCTRL 0
-  &kp Z         &kp X        &kp C            &kp V         &kp B           &kp N      &kp M              &comma_morph      &dot_morph   &kp TILDE
-                                              &lt 3 SPACE   &lt 2 DELETE    &lt 1 RET  &double_backspace
+  &kp Q         &kp W        &kp E            &kp R         &kp T          &kp Y      &kp U              &kp I             &kp O        &kp P
+  &hml LCTRL A  &hml LALT S  &hml LEFT_GUI D  &hml LSHFT F  &kp G          &kp H      &hmr RSHIFT J      &hmr RIGHT_GUI K  &hmr RALT L  &cedilha RCTRL 0
+  &kp Z         &kp X        &kp C            &kp V         &kp B          &kp N      &kp M              &comma_morph      &dot_morph   &kp TILDE
+                                              &lt 3 SPACE   &lt 2 ENTER    &lt 1 DEL  &double_backspace
             >;
         };
 
         sym_layer {
             display-name = "SYM";
             bindings = <
-  &kp SINGLE_QUOTE    &kp EXCLAMATION  &E_agudo_lower  &kp HASH   &kp PERCENT    &kp UNDERSCORE    &U_agudo_lower        &I_agudo_lower         &O_agudo_lower   &none
-  &A_Agudo_lowercase  &kp DLLR         &kp PRCNT       &kp CARET  &kp PLUS       &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON        &kp AMPERSAND
-  &A_crase_lower      &kp AT_SIGN      &none           &none      &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp QUESTION
-                                                       &kp LSHFT  &trans         &trans            &none
+  &kp SINGLE_QUOTE    &kp EXCLAMATION  &E_agudo_lower        &kp HASH   &kp PERCENT    &kp UNDERSCORE    &U_agudo_lower        &I_agudo_lower         &O_agudo_lower   &kp LOCKING_NUM
+  &A_Agudo_lowercase  &kp DLLR         &kp PRCNT             &kp CARET  &kp PLUS       &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON        &kp AMPERSAND
+  &A_crase_lower      &kp AT_SIGN      &kp NON_US_BACKSLASH  &kp PIPE   &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp QUESTION
+                                                             &kp LSHFT  &trans         &trans            &none
             >;
         };
 
@@ -524,7 +529,7 @@
             bindings = <
   &kp ESCAPE  &kp CAPS        &kp UP_ARROW    &kp F2           &kp F11        &kp MINUS     &kp N7               &kp N8                   &kp N9                   &kp SLASH
   &kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL      &kp NUMBER_0  &hmr RIGHT_SHIFT N4  &hmr RIGHT_GUI NUMBER_5  &hmr RIGHT_ALT NUMBER_6  &hmr RCTRL ASTERISK
-  &to 4       &kp HOME        &kp END         &kp PAGE_DOWN    &kp PAGE_UP    &kp PLUS      &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3             &kp COMMA
+  &to 5       &kp HOME        &kp END         &kp PAGE_DOWN    &kp PAGE_UP    &kp PLUS      &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3             &kp COMMA
                                               &kp SPACE        &trans         &trans        &kp BSPC
             >;
         };
@@ -541,19 +546,19 @@
         adj_layer {
             display-name = "ADJ";
             bindings = <
-  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none
-  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &out OUT_TOG    &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
-  &none         &sys_reset    &none         &none         &bt BT_CLR      &bt BT_CLR    &none         &none         &none         &none
-                                            &trans        &none           &none         &none
+  &bt BT_SEL 0  &none       &none  &none   &none    &none  &none  &none  &none  &none
+  &bt BT_SEL 1  &none       &none  &none   &none    &none  &none  &none  &none  &none
+  &bt BT_SEL 2  &sys_reset  &none  &none   &none    &none  &none  &none  &none  &none
+                                   &trans  &none    &none  &none
             >;
         };
 
-        layer_5 {
+        game_layer {
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R                  &kp T       &kp Y        &kp U  &kp I      &kp O    &kp P
-  &kp A  &kp S  &kp D  &kp F                  &kp G       &kp H        &kp J  &kp K      &kp L    &none
-  &kp Z  &kp X  &kp C  &kp V                  &kp B       &kp N        &kp M  &kp COMMA  &kp DOT  &kp TILDE
-                       &hml LEFT_SHIFT SPACE  &lt 2 N0    &lt 1 ENTER  &to 0
+  &kp Q  &kp W  &kp E  &kp R                  &kp T          &kp Y         &kp U              &kp I      &kp O    &kp P
+  &kp A  &kp S  &kp D  &kp F                  &kp G          &kp H         &kp J              &kp K      &kp L    &kp N0
+  &kp Z  &kp X  &kp C  &kp V                  &kp B          &kp N         &kp M              &kp COMMA  &kp DOT  &kp TILDE
+                       &hml LEFT_SHIFT SPACE  &lt 2 ENTER    &lt 1 DELETE  &double_backspace
             >;
         };
     };
