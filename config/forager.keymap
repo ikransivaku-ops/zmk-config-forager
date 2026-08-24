@@ -301,6 +301,42 @@
             key-positions = <6 8 7 9>;
             layers = <5>;
         };
+
+        A_t_l {
+            bindings = <&A_tio_lower>;
+            key-positions = <29 10>;
+            layers = <0>;
+        };
+
+        O_t_l {
+            bindings = <&O_tio_lower>;
+            key-positions = <8 29>;
+            layers = <0>;
+        };
+
+        O_t_u_1 {
+            bindings = <&O_tio_upper>;
+            key-positions = <8 29 13>;
+            layers = <0>;
+        };
+
+        A_t_u_1 {
+            bindings = <&A_tio_upper>;
+            key-positions = <10 29 13>;
+            layers = <0>;
+        };
+
+        O_t_u_2 {
+            bindings = <&O_tio_upper>;
+            key-positions = <8 29 16>;
+            layers = <0>;
+        };
+
+        A_t_u_2 {
+            bindings = <&A_tio_upper>;
+            key-positions = <10 29 16>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -499,6 +535,62 @@
 
             label = "A_AGUDO_LOWERCASE";
         };
+
+        A_tio_lower: a_tio_lower {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_NUMBER_7>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "A_TIO_LOWER";
+        };
+
+        O_tio_lower: a_tio_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_NUMBER_4 &kp KP_NUMBER_5>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "A_TIO_UPPER";
+        };
+
+        A_tio_upper: A_tio_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_5>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "A_TIO_UPPER";
+        };
+
+        O_tio_upper: O_tio_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_3>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "O_TIO_UPPER";
+        };
     };
 
     keymap {
@@ -529,7 +621,7 @@
             bindings = <
   &kp ESCAPE  &kp CAPS        &kp UP_ARROW    &kp F2           &kp F11        &kp MINUS     &kp N7               &kp N8                   &kp N9                   &kp SLASH
   &kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL      &kp NUMBER_0  &hmr RIGHT_SHIFT N4  &hmr RIGHT_GUI NUMBER_5  &hmr RIGHT_ALT NUMBER_6  &hmr RCTRL ASTERISK
-  &to 5       &kp HOME        &kp END         &kp PAGE_DOWN    &kp PAGE_UP    &kp PLUS      &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3             &kp COMMA
+  &tog 5      &kp HOME        &kp END         &kp PAGE_DOWN    &kp PAGE_UP    &kp PLUS      &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3             &kp COMMA
                                               &kp SPACE        &trans         &trans        &kp BSPC
             >;
         };
@@ -546,19 +638,19 @@
         adj_layer {
             display-name = "ADJ";
             bindings = <
-  &bt BT_SEL 0  &none       &none  &none   &none    &none  &none  &none  &none  &none
-  &bt BT_SEL 1  &none       &none  &none   &none    &none  &none  &none  &none  &none
-  &bt BT_SEL 2  &sys_reset  &none  &none   &none    &none  &none  &none  &none  &none
-                                   &trans  &none    &none  &none
+  &bt BT_SEL 0  &none       &none  &none   &none     &none   &none  &none  &none  &none
+  &bt BT_SEL 1  &none       &none  &none   &none     &none   &none  &none  &none  &none
+  &bt BT_SEL 2  &sys_reset  &none  &none   &none     &none   &none  &none  &none  &none
+                                   &trans  &trans    &trans  &none
             >;
         };
 
         game_layer {
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R                  &kp T          &kp Y         &kp U              &kp I      &kp O    &kp P
-  &kp A  &kp S  &kp D  &kp F                  &kp G          &kp H         &kp J              &kp K      &kp L    &kp N0
-  &kp Z  &kp X  &kp C  &kp V                  &kp B          &kp N         &kp M              &kp COMMA  &kp DOT  &kp TILDE
-                       &hml LEFT_SHIFT SPACE  &lt 2 ENTER    &lt 1 DELETE  &double_backspace
+  &kp Q  &kp W  &kp E  &kp R              &kp T          &kp Y         &kp U              &kp I      &kp O    &kp P
+  &kp A  &kp S  &kp D  &kp F              &kp G          &kp H         &kp J              &kp K      &kp L    &kp N0
+  &kp Z  &kp X  &kp C  &kp V              &kp B          &kp N         &kp M              &kp COMMA  &kp DOT  &kp TILDE
+                       &hml LSHIFT SPACE  &lt 2 ENTER    &lt 1 DELETE  &double_backspace
             >;
         };
     };
