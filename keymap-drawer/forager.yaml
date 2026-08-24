@@ -206,7 +206,7 @@ layers:
   - ','
   - .
   - '~'
-  - {t: SPACE, h: LEFT SHIFT}
+  - {t: SPACE, h: LSHIFT}
   - {t: ENTER, h: NUM}
   - {t: DELETE, h: SYM}
   - '&double_backspace'
@@ -262,3 +262,21 @@ combos:
 - p: [6, 8, 7, 9]
   k: {t: BASE, h: toggle}
   l: [game]
+- p: [29, 10]
+  k: '&A_tio_lower'
+  l: [BASE]
+- p: [8, 29]
+  k: '&O_tio_lower'
+  l: [BASE]
+- p: [8, 29, 13]
+  k: '&O_tio_upper'
+  l: [BASE]
+- p: [10, 29, 13]
+  k: '&A_tio_upper'
+  l: [BASE]
+- p: [8, 29, 16]
+  k: '&O_tio_upper'
+  l: [BASE]
+- p: [10, 29, 16]
+  k: '&A_tio_upper'
+  l: [BASE]

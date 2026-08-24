@@ -329,6 +329,46 @@ path.combo {
 <rect rx="6" ry="6" x="70" y="116" width="28" height="26" class="combo"/>
 <text x="84" y="129" class="combo tap">`</text>
 </g>
+<g class="combo combopos-11">
+<path d="M364,146 l317,26" class="combo"/>
+<path d="M364,146 l-317,-26" class="combo"/>
+<rect rx="6" ry="6" x="350" y="133" width="28" height="26" class="combo"/>
+<text x="364" y="146" class="combo tap"><tspan style="font-size: 64%">&amp;A_tio_low…</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M672,109 l-21,-47" class="combo"/>
+<path d="M672,109 l21,47" class="combo"/>
+<rect rx="6" ry="6" x="658" y="96" width="28" height="26" class="combo"/>
+<text x="672" y="109" class="combo tap"><tspan style="font-size: 64%">&amp;O_tio_low…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M513,105 l114,-53" class="combo"/>
+<path d="M513,105 l169,62" class="combo"/>
+<path d="M513,105 l-299,-7" class="combo"/>
+<rect rx="6" ry="6" x="499" y="92" width="28" height="26" class="combo"/>
+<text x="513" y="105" class="combo tap"><tspan style="font-size: 64%">&amp;O_tio_upp…</tspan></text>
+</g>
+<g class="combo combopos-14">
+<path d="M308,130 l-261,-11" class="combo"/>
+<path d="M308,130 l373,42" class="combo"/>
+<path d="M308,130 l-94,-27" class="combo"/>
+<rect rx="6" ry="6" x="294" y="117" width="28" height="26" class="combo"/>
+<text x="308" y="130" class="combo tap"><tspan style="font-size: 64%">&amp;A_tio_upp…</tspan></text>
+</g>
+<g class="combo combopos-15">
+<path d="M625,105 l13,-43" class="combo"/>
+<path d="M625,105 l61,56" class="combo"/>
+<path d="M625,105 l-75,-6" class="combo"/>
+<rect rx="6" ry="6" x="611" y="92" width="28" height="26" class="combo"/>
+<text x="625" y="105" class="combo tap"><tspan style="font-size: 64%">&amp;O_tio_upp…</tspan></text>
+</g>
+<g class="combo combopos-16">
+<path d="M420,130 l-373,-12" class="combo"/>
+<path d="M420,130 l262,41" class="combo"/>
+<path d="M420,130 l94,-27" class="combo"/>
+<rect rx="6" ry="6" x="406" y="117" width="28" height="26" class="combo"/>
+<text x="420" y="130" class="combo tap"><tspan style="font-size: 64%">&amp;A_tio_upp…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 342)" class="layer-SYM">
@@ -1065,7 +1105,7 @@ path.combo {
 <g transform="translate(264, 227) rotate(15.0)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 70%">LEFT SHIFT</tspan></text>
+<text x="0" y="24" class="key hold">LSHIFT</text>
 </g>
 <g transform="translate(320, 252) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
