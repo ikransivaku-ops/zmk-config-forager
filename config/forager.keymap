@@ -320,21 +320,9 @@
             layers = <0>;
         };
 
-        A_t_u_2 {
-            bindings = <&A_tio_upper>;
-            key-positions = <29 10 13>;
-            layers = <0>;
-        };
-
         O_t_u_1 {
             bindings = <&O_tio_upper>;
             key-positions = <8 29 16>;
-            layers = <0>;
-        };
-
-        O_t_u_2 {
-            bindings = <&O_tio_upper>;
-            key-positions = <8 29 13>;
             layers = <0>;
         };
     };
@@ -576,6 +564,20 @@
                 <&kp LEFT_ALT>;
 
             label = "O_TIO_UPPER";
+        };
+
+        A_tio_upper: A_tio_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_5>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "A_TIO_UPPER";
         };
     };
 
