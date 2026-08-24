@@ -349,25 +349,11 @@ path.combo {
 <text x="420" y="130" class="combo tap"><tspan style="font-size: 64%">&amp;A_tio_upp…</tspan></text>
 </g>
 <g class="combo combopos-14">
-<path d="M308,130 l373,42" class="combo"/>
-<path d="M308,130 l-261,-11" class="combo"/>
-<path d="M308,130 l-94,-27" class="combo"/>
-<rect rx="6" ry="6" x="294" y="117" width="28" height="26" class="combo"/>
-<text x="308" y="130" class="combo tap"><tspan style="font-size: 64%">&amp;A_tio_upp…</tspan></text>
-</g>
-<g class="combo combopos-15">
 <path d="M625,105 l13,-43" class="combo"/>
 <path d="M625,105 l61,56" class="combo"/>
 <path d="M625,105 l-75,-6" class="combo"/>
 <rect rx="6" ry="6" x="611" y="92" width="28" height="26" class="combo"/>
 <text x="625" y="105" class="combo tap"><tspan style="font-size: 64%">&amp;O_tio_upp…</tspan></text>
-</g>
-<g class="combo combopos-16">
-<path d="M513,105 l114,-53" class="combo"/>
-<path d="M513,105 l169,62" class="combo"/>
-<path d="M513,105 l-299,-7" class="combo"/>
-<rect rx="6" ry="6" x="499" y="92" width="28" height="26" class="combo"/>
-<text x="513" y="105" class="combo tap"><tspan style="font-size: 64%">&amp;O_tio_upp…</tspan></text>
 </g>
 </g>
 </g>
