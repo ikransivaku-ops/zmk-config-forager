@@ -313,30 +313,6 @@
             key-positions = <8 29>;
             layers = <0>;
         };
-
-        O_t_u_1 {
-            bindings = <&O_tio_upper>;
-            key-positions = <8 29 13>;
-            layers = <0>;
-        };
-
-        A_t_u_1 {
-            bindings = <&A_tio_upper>;
-            key-positions = <10 29 13>;
-            layers = <0>;
-        };
-
-        O_t_u_2 {
-            bindings = <&O_tio_upper>;
-            key-positions = <8 29 16>;
-            layers = <0>;
-        };
-
-        A_t_u_2 {
-            bindings = <&A_tio_upper>;
-            key-positions = <10 29 16>;
-            layers = <0>;
-        };
     };
 
     macros {
