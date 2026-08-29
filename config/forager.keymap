@@ -297,7 +297,7 @@
         };
 
         Exit_game {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <6 8 7 9>;
             layers = <5>;
         };
@@ -650,7 +650,7 @@
   &kp Q  &kp W  &kp E  &kp R              &kp T     &kp Y        &kp U              &kp I      &kp O    &kp P
   &kp A  &kp S  &kp D  &kp F              &kp G     &kp H        &kp J              &kp K      &kp L    &kp N0
   &kp Z  &kp X  &kp C  &kp V              &kp B     &kp N        &kp M              &kp COMMA  &kp DOT  &kp TILDE
-                       &hml LSHIFT SPACE  &tog 2    &lt 1 ENTER  &double_backspace
+                       &hml LSHIFT SPACE  &tog 5    &lt 1 ENTER  &double_backspace
             >;
         };
     };
