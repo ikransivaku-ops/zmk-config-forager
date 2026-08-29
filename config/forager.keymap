@@ -297,7 +297,7 @@
         };
 
         Exit_game {
-            bindings = <&to 0>;
+            bindings = <&tog 0>;
             key-positions = <6 8 7 9>;
             layers = <5>;
         };
