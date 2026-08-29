@@ -207,9 +207,9 @@ layers:
   - .
   - '~'
   - {t: SPACE, h: LSHIFT}
-  - {t: ENTER, h: NUM}
-  - {t: DELETE, h: SYM}
-  - '&double_backspace'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [16, 13]
   k: '&caps_word'
