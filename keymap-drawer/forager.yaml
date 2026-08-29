@@ -207,7 +207,7 @@ layers:
   - .
   - '~'
   - {t: SPACE, h: LSHIFT}
-  - {t: NUM, h: toggle}
+  - {t: game, h: toggle}
   - {t: ENTER, h: SYM}
   - '&double_backspace'
 combos:
