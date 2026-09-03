@@ -1201,7 +1201,7 @@ path.combo {
 </g>
 <g transform="translate(644, 45)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;o_circo_u…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;o_circo_l…</tspan></text>
 </g>
 <g transform="translate(700, 62)" class="key trans keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

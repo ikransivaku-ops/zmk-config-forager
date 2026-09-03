@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&o_circo_upper'
+  - '&o_circo_lower'
   - {t: ▽, type: trans}
   - '&a_circo_lower'
   - {t: ▽, type: trans}
