@@ -327,3 +327,9 @@ combos:
 - p: [7, 30]
   k: '&o_circo_upper'
   l: [accent]
+- p: [30, 16]
+  k: <
+  l: [SYM]
+- p: [30, 16]
+  k: '>'
+  l: [SYM]
