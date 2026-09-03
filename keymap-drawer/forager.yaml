@@ -100,7 +100,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - ','
+  - '&comma_dot'
   - SPACE
   - {type: held}
   - {t: ▽, type: trans}
@@ -315,7 +315,7 @@ combos:
 - p: [8, 29, 13]
   k: '&O_tio_upper'
   l: [BASE]
-- p: [33, 32]
+- p: [33, 30]
   k: RIGHT SHIFT
   l: [BASE]
 - p: [10, 30]
@@ -324,12 +324,12 @@ combos:
 - p: [2, 30]
   k: '&e_circo_upper'
   l: [accent]
-- p: [7, 30]
+- p: [30, 8]
   k: '&o_circo_upper'
   l: [accent]
 - p: [30, 16]
   k: <
   l: [SYM]
-- p: [30, 16]
+- p: [30, 17]
   k: '>'
   l: [SYM]
