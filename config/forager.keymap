@@ -361,6 +361,18 @@
             key-positions = <7 30>;
             layers = <6>;
         };
+
+        less_sym {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <30 16>;
+            layers = <1>;
+        };
+
+        greater_sym {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <30 16>;
+            layers = <1>;
+        };
     };
 
     macros {
