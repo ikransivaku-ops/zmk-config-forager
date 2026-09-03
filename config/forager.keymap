@@ -166,6 +166,13 @@
             flavor = "balanced";
             hold-trigger-on-release;
         };
+
+        comma_dot: comma_dot {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COMMA_DOT";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>, <&kp DOT>;
+        };
     };
 
     combos {
@@ -340,7 +347,7 @@
 
         combo_shift {
             bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <33 32>;
+            key-positions = <33 30>;
             layers = <0>;
         };
 
@@ -358,7 +365,7 @@
 
         o_circo_u {
             bindings = <&o_circo_upper>;
-            key-positions = <7 30>;
+            key-positions = <30 8>;
             layers = <6>;
         };
 
@@ -370,7 +377,7 @@
 
         greater_sym {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <30 16>;
+            key-positions = <30 17>;
             layers = <1>;
         };
     };
@@ -741,7 +748,7 @@
             bindings = <
   &kp ESCAPE  &kp CAPS        &kp UP_ARROW    &kp F2           &kp F11        &kp MINUS     &kp N7               &kp N8                   &kp N9                   &kp SLASH
   &kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL      &kp NUMBER_0  &hmr RIGHT_SHIFT N4  &hmr RIGHT_GUI NUMBER_5  &hmr RIGHT_ALT NUMBER_6  &hmr RCTRL ASTERISK
-  &tog 5      &kp HOME        &kp END         &kp PAGE_DOWN    &kp PAGE_UP    &kp PLUS      &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3             &kp COMMA
+  &tog 5      &kp HOME        &kp END         &kp PAGE_DOWN    &kp PAGE_UP    &kp PLUS      &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3             &comma_dot
                                               &kp SPACE        &trans         &trans        &kp BSPC
             >;
         };
