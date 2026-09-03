@@ -776,7 +776,7 @@
 
         accent {
             bindings = <
-  &trans          &trans  &e_circo_lower  &trans           &trans    &trans  &trans  &trans  &o_circo_upper  &trans
+  &trans          &trans  &e_circo_lower  &trans           &trans    &trans  &trans  &trans  &o_circo_lower  &trans
   &a_circo_lower  &trans  &trans          &trans           &trans    &trans  &trans  &trans  &trans          &trans
   &trans          &trans  &trans          &trans           &trans    &trans  &trans  &trans  &trans          &trans
                                           &kp RIGHT_SHIFT  &trans    &trans  &trans
