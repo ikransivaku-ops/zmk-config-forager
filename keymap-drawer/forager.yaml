@@ -60,7 +60,7 @@ layers:
   - '@'
   - \
   - '|'
-  - ''
+  - {t: accent, h: sticky}
   - '['
   - ']'
   - '{'
@@ -210,6 +210,41 @@ layers:
   - {t: game, h: toggle}
   - {t: ENTER, h: SYM}
   - '&double_backspace'
+  accent:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&e_circo_lower'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&o_circo_upper'
+  - {t: ▽, type: trans}
+  - '&a_circo_lower'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [16, 13]
   k: '&caps_word'
@@ -280,3 +315,15 @@ combos:
 - p: [8, 29, 13]
   k: '&O_tio_upper'
   l: [BASE]
+- p: [33, 32]
+  k: RIGHT SHIFT
+  l: [BASE]
+- p: [10, 30]
+  k: '&a_circo_upper'
+  l: [accent]
+- p: [2, 30]
+  k: '&e_circo_upper'
+  l: [accent]
+- p: [7, 30]
+  k: '&o_circo_upper'
+  l: [accent]
