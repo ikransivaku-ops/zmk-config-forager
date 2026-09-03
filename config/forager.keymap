@@ -344,19 +344,19 @@
             layers = <0>;
         };
 
-        a_c_u {
+        a_circo_u {
             bindings = <&a_circo_upper>;
             key-positions = <10 30>;
             layers = <6>;
         };
 
-        e_c_u {
+        e_circo_u {
             bindings = <&e_circo_upper>;
             key-positions = <2 30>;
             layers = <6>;
         };
 
-        o_c_u {
+        o_circo_u {
             bindings = <&o_circo_upper>;
             key-positions = <7 30>;
             layers = <6>;
