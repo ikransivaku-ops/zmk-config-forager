@@ -562,6 +562,12 @@ path.combo {
 <rect rx="6" ry="6" x="412" y="142" width="28" height="26" class="combo"/>
 <text x="426" y="155" class="combo tap">&gt;</text>
 </g>
+<g class="combo combopos-7">
+<path d="M202,127 l52,83" class="combo"/>
+<path d="M202,127 l-52,-83" class="combo"/>
+<rect rx="6" ry="6" x="188" y="114" width="28" height="26" class="combo"/>
+<text x="202" y="127" class="combo tap"><tspan style="font-size: 64%">&amp;E_agudo_u…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 684)" class="layer-NUM">

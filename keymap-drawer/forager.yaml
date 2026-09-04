@@ -333,3 +333,6 @@ combos:
 - p: [30, 17]
   k: '>'
   l: [SYM]
+- p: [30, 2]
+  k: '&E_agudo_upper'
+  l: [SYM]
