@@ -377,6 +377,18 @@ path.combo {
 <tspan x="370" dy="-0.6em">RIGHT</tspan><tspan x="370" dy="1.2em">SHIFT</tspan>
 </text>
 </g>
+<g class="combo combopos-18">
+<path d="M616,108 l-65,-8" class="combo"/>
+<path d="M616,108 l65,8" class="combo"/>
+<rect rx="6" ry="6" x="602" y="95" width="28" height="26" class="combo"/>
+<text x="616" y="108" class="combo tap"><tspan style="font-size: 64%">&amp;Cecidilha…</tspan></text>
+</g>
+<g class="combo combopos-19">
+<path d="M448,108 l-233,-9" class="combo"/>
+<path d="M448,108 l233,9" class="combo"/>
+<rect rx="6" ry="6" x="434" y="95" width="28" height="26" class="combo"/>
+<text x="448" y="108" class="combo tap"><tspan style="font-size: 64%">&amp;Cecidilha…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 342)" class="layer-SYM">

@@ -336,3 +336,9 @@ combos:
 - p: [30, 2]
   k: '&E_agudo_upper'
   l: [SYM]
+- p: [16, 19]
+  k: '&Cecidilha_upper'
+  l: [BASE]
+- p: [13, 19]
+  k: '&Cecidilha_upper'
+  l: [BASE]
